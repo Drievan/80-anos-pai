@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: 0;
+    text-decoration: 0;
+    outline:none;
+    font-family: Verdana;
+
+}
+    
+    section{
+        padding:54px 0;
+              
+    }
+
+h1{
+    font-size: 80px;
+    color: rgb(71, 53, 236);
+    font-style: normal;
+    font-family: Verdana;
+    margin: 0px;
+    
+}
+
+p{
+    font-size: 25px;
+    background-color: rgb(42, 42, 240);
+    color: rgb(243, 245, 247);
+    text-align: justify;
+    
+}
+.container{
+    max-width: 1400 px;
+    margin: 0;
+    padding: 0 5%;
+
+.botao{
+    margin-top:200px;
+    width:200px;
+    height: 50px;
+    color:rgb(6, 6, 153);
+    padding: 0px 0px;
+    border-radius:10px;
+    cursor: pointer;
+    display:inline-block;
+    font-weight: bold;
+    transition:0.1 s;
+}
+
+.botao:hover {
+    background-color: #3580db;
+}
+
+}
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+nav ul{
+    display: flex;
+    align-self: center;
+    text-transform: uppercase;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+nav ul a{
+    color: rgb(45, 19, 192);
+    margin: 0 25px;
+        
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+
+
+}
+.banner-text{
+
+    margin: 80px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+ 
+
+.body iframe{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 54px;
+    color: #3580db;
+}
+    
+
+.row{
+    display:flex;
+    border-top: none;
+    padding-top: 0;
+    justify-content: space-around;
+    box-shadow: 20 px 20px;
+
+    
+
+}
+
+.card h1{
+    font-size: 30px;
+
+}  
+
+.card h2{
+    font-size: 16px;
+}
+
+.card{
+    color: rgba(0, 0, 0, .5);
+    box-shadow: 10px 10px;
+    margin-top: 20px;
+}
+
+.mapa h1{
+    font-size: 40px;
+    margin-top: 20px;
+    color:#3580db;
+}
+
+
+.texto h2{
+    font-size: 30px;
+    color: #3580db;
+    padding: 0;
+    text-align: center;
+}
+.texto p{
+    font-size: 16px;
+    justify-content: center;
+    text-align: justify;
+    background-color: #fff;
+    color: #3580db;
+    text-align: center;
+}
+
+.pais{
+    padding-top: 20px;
+    margin-top: -10px;
+    padding-left: 20px;
+    text-align: center;
+    box-shadow: 20px 20px;
+    color: #3580db;
+    
+    
+
+}
+
